@@ -1,0 +1,83 @@
+.section-additional-services {
+  margin-bottom: 60px;
+  .section-title-wrapper {
+    .section-title {
+      font-size: 20px;
+    }
+    .section-title-bg {
+      max-width: 100px;
+    }
+  }
+  .additional-services {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+    .info-box {
+      text-align: center;
+    }
+    .box-title {
+      font-size: 14px;
+    }
+  }
+  .im {
+    color: #cecece;
+  }
+}
+
+/* Animation fadeInUp */
+@keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+.animatedFadeInUp {
+  opacity: 0;
+}
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp;
+}
+.delay-2 {
+  animation-delay: 0.2s;
+}
+.delay-4 {
+  animation-delay: 0.4s;
+}
+.delay-6 {
+  animation-delay: 0.6s;
+}
+.delay-8 {
+  animation-delay: 0.8s;
+}
+// .delay-5 {
+//   animation-delay: 5s;
+// }
+// .delay-6 {
+//   animation-delay: 6s;
+// }
+// .delay-7 {
+//   animation-delay: 7s;
+// }
+// .delay-8 {
+//   animation-delay: 8s;
+// }
+// .delay-9 {
+//   animation-delay: 9s;
+// }
+// .delay-10 {
+//   animation-delay: 10s;
+// }
+// .delay-11 {
+//   animation-delay: 11s;
+// }
+// .delay-12 {
+//   animation-delay: 12s;
+// }

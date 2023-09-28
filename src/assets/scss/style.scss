@@ -1,0 +1,32 @@
+// fonts
+@import "base/fonts";
+
+// variables and mixins
+@import "base/variables";
+
+//components
+@import "components/header";
+@import "components/component";
+@import "components/hero";
+@import "components/services";
+@import "components/additional-services";
+@import "components/collaborate";
+@import "components/pricing";
+@import "components/contact-us";
+@import "components/footer";
+
+// common styles
+@import "base/common";
+
+// animate css
+// @import "../../node_modules/animate.css/source/attention_seekers/bounce.css";
+// @import "../../node_modules/animate.css/source/attention_seekers/flash.css";
+// @import "../../node_modules/animate.css/source/attention_seekers/pulse.css";
+// @import "../../node_modules/animate.css/source/attention_seekers/rubberBand.css";
+// @import "../../node_modules/animate.css/source/attention_seekers/shake.css";
+// @import "../../node_modules/animate.css/source/attention_seekers/headShake.css";
+// @import "../../node_modules/animate.css/source/attention_seekers/swing.css";
+// @import "../../node_modules/animate.css/source/attention_seekers/tada.css";
+// @import "../../node_modules/animate.css/source/attention_seekers/wobble.css";
+// @import "../../node_modules/animate.css/source/attention_seekers/jello.css";
+// @import "../../node_modules/animate.css/source/attention_seekers/heartBeat.css";

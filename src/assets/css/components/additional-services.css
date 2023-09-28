@@ -1,0 +1,47 @@
+.section-additional-services {
+  margin-bottom: 60px; }
+  .section-additional-services .section-title-wrapper .section-title {
+    font-size: 20px; }
+  .section-additional-services .section-title-wrapper .section-title-bg {
+    max-width: 100px; }
+  .section-additional-services .additional-services {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 70px; }
+    .section-additional-services .additional-services .info-box {
+      text-align: center; }
+    .section-additional-services .additional-services .box-title {
+      font-size: 14px; }
+  .section-additional-services .im {
+    color: #cecece; }
+
+/* Animation fadeInUp */
+@keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0); }
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1; } }
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both; }
+
+.animatedFadeInUp {
+  opacity: 0; }
+
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp; }
+
+.delay-2 {
+  animation-delay: 0.2s; }
+
+.delay-4 {
+  animation-delay: 0.4s; }
+
+.delay-6 {
+  animation-delay: 0.6s; }
+
+.delay-8 {
+  animation-delay: 0.8s; }

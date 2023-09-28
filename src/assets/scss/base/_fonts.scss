@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap");
+
+@font-face {
+  font-family: "iconsmind";
+  src: url("../fonts/iconsmind.woff") format("woff");
+}
+
+@font-face {
+  font-family: "FontAwesome";
+  src: url("../fonts/fontawesome-webfont.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Nexa Light";
+  src: url("../fonts/Nexa-Light.eot");
+  src: local("../fonts/Nexa Light"), local("../fonts/Nexa-Light"),
+    url("../fonts/Nexa-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Nexa-Light.woff2") format("woff2"),
+    url("../fonts/Nexa-Light.woff") format("woff"),
+    url("../fonts/Nexa-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nexa";
+  src: url("../fonts/Nexa-Book.eot");
+  src: local("../fonts/Nexa Book"), local("../fonts/Nexa-Book"),
+    url("../fonts/Nexa-Book.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Nexa-Book.woff2") format("woff2"),
+    url("../fonts/Nexa-Book.woff") format("woff"),
+    url("../fonts/Nexa-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nexa Bold";
+  src: url("../fonts/Nexa-Bold.eot");
+  src: local("../fonts/Nexa Bold"), local("../fonts/Nexa-Bold"),
+    url("../fonts/Nexa-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Nexa-Bold.woff2") format("woff2"),
+    url("../fonts/Nexa-Bold.woff") format("woff"),
+    url("../fonts/Nexa-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
